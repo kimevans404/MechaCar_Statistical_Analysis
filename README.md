@@ -30,14 +30,23 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 Determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+Combined Manufacturing Lots Results:
+
+<img width="404" alt="TtestAll" src="https://user-images.githubusercontent.com/111471057/213879673-a80f6220-a1fe-47cb-9066-1387bef3335b.png">
+
+Individual Lot Results:
+
+<img width="493" alt="TestLot1" src="https://user-images.githubusercontent.com/111471057/213879686-279190e8-419e-4580-b1a2-13c2e205cd6f.png">
+<img width="480" alt="TestLot2" src="https://user-images.githubusercontent.com/111471057/213879697-205edcff-86f8-4e9b-9876-a14402e5f3aa.png">
+<img width="486" alt="TestLot3" src="https://user-images.githubusercontent.com/111471057/213879702-c3d2eca8-4ff2-4563-a955-e4af23006b84.png">
+
+The t-tests show that the overall results, and individual lot results are not statistically different from the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
-to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+To compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, additional analysis can be done. Most consumers would want to compare maintenance costs and safety ratings. 
 
-2. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-3. address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+A null hypothesis would be that MechaCar's maintenance costs and safety ratings do not differ from other manufacturers. 
 
+The alternative hypothesis is that MechaCar's maintenance costs and safety ratings do differ from other manufacturers. 
+
+Using R, statistical summaries and t-tests can be run for accurate analysis between manufacturers. The data needed to perform the analysis would be repair costs and crash/safety data.
