@@ -1,6 +1,11 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview of project
+This analysis includes the following: 
+- [Linear Regression to Predict MPG](#linear-regression-to-predict-mpg)
+- [Summary Statistics on Suspension Coils](#summary-statistics-on-suspension-coils)
+- [T-Tests on Suspension Coils](#t-tests-on-suspension-coils)
+- [Study Design: MechaCar vs Competition](#study-design-mechacar-vs-competition)
 
 
 ## Linear Regression to Predict MPG
