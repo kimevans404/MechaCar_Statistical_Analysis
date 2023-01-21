@@ -1,6 +1,8 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview of project
+A fictional company, AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on the data analytics team to review the production data for insights that may help the manufacturing team.
+
 This analysis includes the following: 
 - [Linear Regression to Predict MPG](#linear-regression-to-predict-mpg)
 - [Summary Statistics on Suspension Coils](#summary-statistics-on-suspension-coils)
